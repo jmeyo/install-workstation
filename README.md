@@ -1,2 +1,2 @@
 # install-workstation
-As I do it oftenm better have a nice list of task to perform
+As I do it often, better have a nice list of task to perform
