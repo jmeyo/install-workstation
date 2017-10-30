@@ -37,3 +37,12 @@ As I do it often, better have a nice list of task to perform
     php-apcu \
     python
 
+##Devops Environment
+### setup docker
+
+Follow standard guide:
+https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-using-the-repository
+
+Do post install too
+https://docs.docker.com/engine/installation/linux/linux-postinstall/#manage-docker-as-a-non-root-user
+
