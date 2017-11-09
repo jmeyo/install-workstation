@@ -1,8 +1,20 @@
 # Install-workstation
 As I do it often, better have a nice list of task to perform
 
+## Configure basic system
+
+### install ssh
+
+[ssh-copy-id|https://www.ssh.com/ssh/copy-id] is handy
 
 ## PHP dev environment
+
+### Setup mysql server
+
+
+    sudo apt install mysql-server
+
+Finish and secure install if needed/prod.
 
 ### Setup php 7.0 environment
     sudo apt-get install php7.0 php7.0-fpm php7.0-cli php7.0-common php7.0-mbstring php7.0-gd php7.0-intl php7.0-xml php7.0-mysql php7.0-mcrypt php7.0-zip
@@ -38,7 +50,7 @@ As I do it often, better have a nice list of task to perform
     python
 
 ##Devops Environment
-### setup docker
+### Setup docker
 
 Follow standard guide:
 https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-using-the-repository
