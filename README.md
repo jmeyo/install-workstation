@@ -5,6 +5,21 @@ As I do it often, better have a nice list of task to perform
 
 ### install ssh
 
+    sudo apt install openssh-server
+    
+Configure multiple ssh identity in case:
+
+For example to use a specific account on github, create/edit ~/.ssh/config with 
+
+```
+# hoa account
+Host github.com-hoa
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_hoa
+```
+
+
 [ssh-copy-id|https://www.ssh.com/ssh/copy-id] is handy
 
 ## PHP dev environment
