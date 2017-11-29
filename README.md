@@ -63,6 +63,11 @@ Finish and secure install if needed/prod.
     php7.1-zip \
     php-apcu \
     python
+    
+### install composer
+
+see https://getcomposer.org/download/
+
 
 ##Devops Environment
 ### Setup docker
